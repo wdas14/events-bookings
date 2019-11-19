@@ -2,7 +2,7 @@ import React from 'react';
 
 import './EventItem.css';
 
-const eventItem = props => (
+const EventItem = props => (
   <li key={props.eventId} className="events__list-item">
     <div>
       <h1>{props.title}</h1>
@@ -22,4 +22,4 @@ const eventItem = props => (
   </li>
 );
 
-export default eventItem;
+export default EventItem;

@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon app.js"
+    "start-server": "nodemon app.js",
+    "start-react": "npm run start --prefix frontend",
+    "dev": "concurrently \"nodemon app.js\" \"npm run start --prefix frontend\""
   },
   "author": "Will S",
   "license": "ISC",
