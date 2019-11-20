@@ -1,1 +1,1 @@
-# events-bookings-v2
+# events-bookings
